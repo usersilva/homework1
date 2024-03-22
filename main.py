@@ -7,6 +7,9 @@ def func(num):
         num //= 10
     print("max value:", maxi)
 
+def func1(guestsAmount):
+    cuts =  guestsAmount - 1
+    print("cuts amount:", cuts)
 
 num = int(input("enter the number "))
-func(num)
+func1(num)
